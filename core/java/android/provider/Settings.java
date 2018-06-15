@@ -9049,6 +9049,7 @@ public final class Settings {
          */
         public static final String MTP_DIRTY_HACK = "mtp_dirty_hack";
 
+	 /** @hide */
         public static final String MTP_DIRTY_HACK_SAVE = "mtp_dirty_hack_save";
 		
         /**
