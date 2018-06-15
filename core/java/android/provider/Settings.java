@@ -3604,6 +3604,18 @@ public final class Settings {
         };
 
         /**
+         * Whether to use the MTP by default after connecting to PC
+         * @hide
+         */
+        public static final String MTP_DIRTY_HACK = "mtp_dirty_hack";
+
+        /**
+         * fix for MTP Tethering
+         * @hide
+         */
+        public static final String MTP_DIRTY_HACK_SAVE = "mtp_dirty_hack_save";		
+		
+        /**
          * IMPORTANT: If you add a new public settings you also have to add it to
          * PUBLIC_SETTINGS below. If the new setting is hidden you have to add
          * it to PRIVATE_SETTINGS below. Also add a validator that can validate
@@ -9041,16 +9053,6 @@ public final class Settings {
          * @hide
          */
         public static final String DATABASE_DOWNGRADE_REASON = "database_downgrade_reason";
-
-
-        /**
-         * Whether to use the MTP by default after connecting to PC
-         * @hide
-         */
-        public static final String MTP_DIRTY_HACK = "mtp_dirty_hack";
-
-	 /** @hide */
-        public static final String MTP_DIRTY_HACK_SAVE = "mtp_dirty_hack_save";
 		
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
